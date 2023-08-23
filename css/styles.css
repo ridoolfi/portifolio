@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    background-color: #f7f6fa;
+    height: 160rem;
+}
+
+#profile-container {
+    display: flex;
+    background: #750556;
+    background-image: linear-gradient(to right bottom, #a445fb, #945aff, #856aff, #7877ff, #6f82ff);
+    border: 5px solid #ffffff;
+    border-radius: 32px;
+    height: 22rem;
+    width: 18rem;
+    align-items: center;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    
+}
+#profile {
+    position: relative;
+    width: 19rem;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#profileUser {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #fff;
+    border-radius: 64rem;
+    height: 120px
+}
+   
+
+#name{
+    text-align: center;
+    position: relative;
+    max-width: 12rem;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    text-decoration: underline;
+}
+
+#bio {
+    font-size: 18px;
+    text-align: center;
+    color: #bbbbbb;
+}
+
+#content {
+    position: relative;
+    text-align: center;
+    font-family: "Verdana";
+    font-size: 15px;
+    max-width: 12rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+
+#media {
+    flex-direction: column;
+    max-width: 25rem;
+    align-items: center;
+}
+
+#objetivo {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#socialMedia {
+    position: relative;
+    display: flex;
+    max-width: 12rem;
+    margin-bottom: 1rem;
+}
+
+#icongit {
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/logogithub.png");
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 2rem;
+}
+
+#iconlink {
+    background-image: url("../img/logolinkedin.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin-left: 2rem;
+}
+
+#iconinsta {
+    background-image: url("../img/logoinsta.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin-left: 2rem;
+}
+
+.icons {
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+    border: 2px solid #fff;
+}
+
+.slink {
+    text-decoration: none;
+    color: #fff;
+}
+
+#projetos {
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projTitle {
+    font-family: "Verdana";
+    position: relative;
+    text-align: center;
+    margin-top: 1rem;
+    color: #333;
+    text-shadow: 1px 1px #6f82ff;
+}
+
+
+@media (max-width: 450px) {
+    body {
+        display: block;
+        align-items: center;
+    }
+    
+    #profile {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #profile-container {
+        width: 18rem;
+    }
+}
